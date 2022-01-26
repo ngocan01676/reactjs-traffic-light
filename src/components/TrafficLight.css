@@ -1,0 +1,26 @@
+body{background: #fff;}
+.TrafficLight{
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto;
+  max-width: 600px;
+}
+.item{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  opacity: .3;
+  margin-bottom: 15px;
+}
+.item.red{
+  background: red;
+}
+.item.green{
+  background: green;
+}
+.item.orange{
+  background: orange;
+}
+.item.active{
+  opacity: 1;
+}
